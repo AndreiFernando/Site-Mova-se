@@ -272,3 +272,67 @@ iframe {
 .pac-reserva {
     margin-left: 45px;
 }
+
+.acessorios{
+    display: flex;
+    margin: auto;
+    width: 88%;
+    padding: 15px;
+}
+
+.produtos img{
+    max-width: 100px;
+    border: solid #7f7f80 3px;
+    border-radius: 100%;
+    box-shadow: gray 1px 1px 5px;
+    margin: 10%;
+}
+
+.produtos{
+    box-shadow: gray 1px 1px 5px;
+    text-align: center;
+    padding: 20px;
+    width: 230px;
+    background-color: white;
+    margin: 1%;
+    border-radius: 5px;
+}
+
+.produtos h4{
+    color: #ED6019;
+    text-transform: uppercase;
+}
+
+.img-produto{
+    height: 150px;
+}
+
+.acesse{
+    text-transform: uppercase;
+    background-color: #ED6019;
+    width: 100px;
+    height: 20px;
+    padding: 3px;
+    margin: 8px auto 0;
+    border-radius: 5px;
+    color: white;
+}
+
+#conteudo-contato{
+    display: flex;
+}
+
+.cont-contato{
+    width: 400px;
+    margin: 3px;
+}
+
+.fomulario h2, .formulario p, .form{
+    text-align: right;
+    margin: 1%;
+}
+
+.localizacao h2, .localizacao p, .loclizacao iframe{
+    text-align: left;
+    margin: 1%;
+}
