@@ -354,6 +354,8 @@ background-color: #A98E12;
 
 .rodape{
     border-top: solid #06632e 5px;
+    background-color: black;
+    color: gray;
 }
 
 .rodape-conteudo{
