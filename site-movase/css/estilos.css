@@ -332,8 +332,49 @@ iframe {
     margin: 1%;
 }
 
-.localizacao h2, .localizacao p, .loclizacao iframe{
+.localizacao h2, .localizacao p, .localizacao iframe{
     text-align: left;
     margin: 1%;
-    padding: 1px;
+}
+
+button{
+    border: none;
+    background-color: #ED6019;
+    height: 30px;
+    margin-left: 40px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: gray 1px 1px 5px;
+}
+
+button:hover{
+background-color: #A98E12;
+}
+
+.rodape{
+    border-top: solid #06632e 5px;
+}
+
+.rodape-conteudo{
+    display: flex;
+    margin-left: 10%;
+}
+
+.rodape-conteudo ul{
+    list-style: none;
+}
+
+#logo-rodape{
+max-width: 150px;
+margin: 3%;
+}
+
+.menu-rodape{
+    text-decoration: none;
+    color: gray;
+}
+
+.menu-rodape a:hover{
+    color:white
 }
