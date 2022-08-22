@@ -335,4 +335,5 @@ iframe {
 .localizacao h2, .localizacao p, .loclizacao iframe{
     text-align: left;
     margin: 1%;
+    padding: 1px;
 }
