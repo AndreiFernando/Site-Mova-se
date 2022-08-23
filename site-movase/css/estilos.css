@@ -72,7 +72,8 @@ nav a:visited {
     justify-content: center;
 }
 
-nav a:hover {
+nav a:hover,
+nav a:focus {
     background-color: #A98E12;
     color: #000;
     transition: background-color 1s;
@@ -130,6 +131,8 @@ nav a:hover {
     background-color: #ED6019;
     text-align: center;
     height: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #frase p {
