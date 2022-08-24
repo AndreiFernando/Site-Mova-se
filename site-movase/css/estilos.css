@@ -130,7 +130,6 @@ nav a:focus {
     color: white;
     background-color: #ED6019;
     text-align: center;
-    height: 80px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -411,4 +410,42 @@ button:hover {
 
 .assinatura p {
     padding-top: 2%;
+}
+
+/*Design responsivo*/
+
+/*3° parte: Midia Queries, regras com ajustes para a visualização do site em tamanhos de telas maiores(breakpoints)*/
+
+/*telas a partir de 720px*/
+
+@media screen and (min-width: 720px) {
+    .topo {
+        padding-left: 8%;
+        width: 100%;
+        top: 0;
+        height: 70px;
+        z-index: 1000;
+    }
+
+    .topo div {
+        justify-content: center;
+        align-items: center;
+    }
+
+    #destaque {
+        max-height: 280px;
+    }
+
+    .card-conteudo {
+        flex-direction: column;
+    }
+
+    .card-conteudo figure {
+        height: 16vh;
+        width: 200px;
+    }
+
+    .card-conteudo figcaption {
+        bottom: 4px;
+    }
 }
