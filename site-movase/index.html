@@ -6,7 +6,7 @@
     <meta nome="viewport" content="width=device-width, initial-scale=1">
     <title>Mova-se</title>
 
-    
+
     <link rel="icon" href="./imagem/icone_logo.png" sizes="64x64">
 
     <link rel="stylesheet" href="./css/estilos.css"> <!-- 1o CSS Reset -->
@@ -26,15 +26,38 @@
             </ul>
         </nav>
     </header>
-    <main id="conteudo">
 
-        <article id="destaque">
-            <img src="imagem/montanha.jpg" alt="Vale com montanhas">
+    <div id="slider">
+        <div id="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <div class="slide first">
+                <img src="imagem/arvores.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="./imagem/asa-delta.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="./imagem/caminho-bike.jpg" alt="">
+            </div>
+            <div id="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+        <!--<article id="destaque">
             <div class="text-destaque">
-                <h2>TERRESTRE</h2>                
                 <p>Explore trilhas e cachoeiras em lugares incríveis</p>
             </div>
-        </article>
+        </article>-->
+
+    <main id="conteudo">
+
 
         <aside id="frase">
             <p>"Silêncio, a mãe natureza está esperando
@@ -53,10 +76,10 @@
                     <figcaption>Montanha</figcaption>
                 </figure>
                 <figure>
-                   <a href="pacotes.html"> <img src="imagem/rafting.jpg" alt=""></a>
+                    <a href="pacotes.html"> <img src="imagem/rafting.jpg" alt=""></a>
                     <figcaption>Aquático</figcaption>
                 </figure>
-                <figure>    
+                <figure>
                     <a href="pacotes.html"><img src="imagem/asa-delta.jpg" alt=""></a>
                     <figcaption>Aéreo</figcaption>
                 </figure>
@@ -70,7 +93,7 @@
                 allowfullscreen></iframe>
         </div>
     </main>
-</body>
+
 <footer class="rodape">
     <div class="rodape-conteudo">
         <div id="logo-rodape"><a href="index.html"><img src="./imagem/logo.png" alt="logotipo"></a></div>
@@ -102,5 +125,6 @@
         <p>site acadêmico | Todos os direitos reservados | Senac Tito - 2022</p>
     </div>
 </footer>
-
+<script src="./js/script.js"></script>
+</body>
 </html>

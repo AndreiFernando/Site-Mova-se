@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="./css/estilos.css">
     <title>Mova-se</title>
     <link rel="icon" href="./imagem/icone_logo.png" sizes="64x64">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
@@ -43,7 +46,25 @@
                 </div>
                 <h4>BOTA</h4>
                 <p>Bota para caminhada e trekking.</p>
-                <div class="acesse">Acesse</div>
+                <div class="acesse" class="btn btn-primary" data-toggle="modal" data-target="#modal-mensagem">Acesse
+                </div>
+            </div>
+            <div class="modalfade" id="modal-mensagem">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Bota</h4>
+                        </div>
+                        <div class="modal-body" id="mensagem">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum voluptas rerum
+                                laborum architecto fugit necessitatibus sed. Repudiandae architecto eos corrupti
+                                cumque iusto maiores beatae itaque ex. Cumque quibusdam consectetur repellendus!</p>
+                        </div>
+                        <div class="modal-footer">
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
             <div class="produtos">
@@ -57,8 +78,8 @@
 
             <div class="produtos">
                 <div class="img-produto">
-                <img src="imagem/luvas.jpg" alt="luvas">
-            </div>
+                    <img src="imagem/luvas.jpg" alt="luvas">
+                </div>
                 <h4>LUVAS PARA TREKKING</h4>
                 <p>luvas para trekking meio dedo</p>
                 <div class="acesse">Acesse</div>
@@ -69,7 +90,7 @@
         <div class="acessorios">
             <div class="produtos">
                 <div class="img-produto">
-                <img src="imagem/capacete.jpg" alt="">
+                    <img src="imagem/capacete.jpg" alt="">
                 </div>
                 <h4>CAPACETE</h4>
                 <p>Capacete para bike</p>
@@ -79,8 +100,8 @@
 
             <div class="produtos">
                 <div class="img-produto">
-                <img src="imagem/squeeze.jpg" alt="">
-            </div>
+                    <img src="imagem/squeeze.jpg" alt="">
+                </div>
                 <h4>SQUEEZE</h4>
                 <p>Squeeze para bike</p>
                 <div class="acesse">Acesse</div>
@@ -89,8 +110,8 @@
 
             <div class="produtos">
                 <div class="img-produto">
-                <img src="imagem/sapatilha-escalada.jpg" alt="">
-            </div>
+                    <img src="imagem/sapatilha-escalada.jpg" alt="">
+                </div>
                 <h4>SAPATILHA</h4>
                 <p>Sapatilha para bike</p>
                 <div class="acesse">Acesse</div>
@@ -98,37 +119,40 @@
         </div>
 
     </main>
+
+    <footer class="rodape">
+        <div class="rodape-conteudo">
+            <div id="logo-rodape"><a href="index.html"><img src="./imagem/logo.png" alt="logotipo"></a></div>
+            <div class="menu-rodape">
+                <ul>
+                    <li><a href="index.html"></a>Home</li>
+                    <li><a href="#"></a>Terrestre</li>
+                    <li><a href="#"></a>Montanha</li>
+                    <li><a href="#"></a>Aquático</li>
+                    <li><a href="#"></a>Aéreo</li>
+                </ul>
+            </div>
+            <div class="menu-rodape">
+                <ul>
+                    <li><a href="index.html"></a>Pacotes</li>
+                    <li><a href="acessorios.html"></a>Acessórios</li>
+                    <li><a href="contato.html"></a>Contato</li>
+                </ul>
+            </div>
+            <div class="redes">
+                <ul>
+                    <li><img src="imagem/facebook.png" alt="Logo facebook"></li>
+                    <li><img src="imagem/insta.png" alt="Logo Instagram"></li>
+                    <li><img src="imagem/youtube.png" alt="Logo Youtube"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="assinatura">
+            <p>site acadêmico | Todos os dieitos reservados | Senac Tito - 2022</p>
+        </div>
+
+    </footer>
+    <script src="./js/script.js"></script>
 </body>
-<footer class="rodape">
-    <div class="rodape-conteudo">
-        <div id="logo-rodape"><a href="index.html"><img src="./imagem/logo.png" alt="logotipo"></a></div>
-        <div class="menu-rodape">
-            <ul>
-                <li><a href="index.html"></a>Home</li>
-                <li><a href="#"></a>Terrestre</li>
-                <li><a href="#"></a>Montanha</li>
-                <li><a href="#"></a>Aquático</li>
-                <li><a href="#"></a>Aéreo</li>
-            </ul>
-        </div>
-        <div class="menu-rodape">
-            <ul>
-                <li><a href="index.html"></a>Pacotes</li>
-                <li><a href="acessorios.html"></a>Acessórios</li>
-                <li><a href="contato.html"></a>Contato</li>
-            </ul>
-        </div>
-        <div class="redes">
-            <ul>
-                <li><img src="imagem/facebook.png" alt="Logo facebook"></li>
-                <li><img src="imagem/insta.png" alt="Logo Instagram"></li>
-                <li><img src="imagem/youtube.png" alt="Logo Youtube"></li>
-            </ul>
-        </div>
-    </div>
-    <div class="assinatura">
-        <p>site acadêmico | Todos os dieitos reservados | Senac Tito - 2022</p>
-    </div>
-</footer>
 
 </html>
